@@ -1,0 +1,52 @@
+.container{
+  height: 100vh;
+}
+
+.sideBar{
+  background-color: rgb(127, 107, 202);
+}
+ul{
+  list-style: none;
+  text-indent: 0px;
+  padding: 0;
+}
+
+li{
+  cursor: pointer;
+  display: block;
+  background-color: #000;
+  color: #fff;
+  border-radius: 7px;
+}
+
+li.active {
+  background-color: blue;
+}
+
+.genderBtn{
+  cursor: pointer;
+  display: block;
+  background-color: #000;
+  color: #fff;
+  border-radius: 7px;
+  width: 50px;
+  font-size: 30px;
+}
+
+.genderBtn.active{
+  background-color: blue;
+}
+
+.continueBtn{
+  display: block;
+  cursor: pointer;
+  color: #fff;
+  background-color:blue;
+  border: none;
+  border-radius: 7px;
+}
+
+.continueBtn.disabled{
+  background-color: gray;
+  cursor: auto;
+}
